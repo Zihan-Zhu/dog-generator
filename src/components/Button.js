@@ -27,7 +27,7 @@ function Button() {
       {picIsOpen ? <Media /> : null}
     </div>
 
-    //{picIsOpen ? <Media /> : null}
+    
   );
 }
 export default Button;

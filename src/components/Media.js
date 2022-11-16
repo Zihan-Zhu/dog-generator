@@ -20,10 +20,18 @@ function Media() {
   // check there is a value in dog
   if (dog) {
     if (isImgUrl(dog.url)) {
-      return <img src={dog.url} width="300" height="300" />;
+      return (
+        <center>
+          <img src={dog.url} width="400" height="400" />
+        </center>
+      );
     }
-    return <video src={dog.url} width="300" height="300" autoPlay loop />;
+    return (
+      <center>
+        <video src={dog.url} width="400" height="400" autoPlay loop />
+      </center>
+    );
   }
-  return <div></div>
+  return <div></div>;
 }
 export default Media;
