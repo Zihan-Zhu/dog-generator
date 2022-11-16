@@ -1,1 +1,30 @@
+.btn {
+  font: inherit;
+  padding: 30px 45px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #244fda;
+  color: white;
+  border: 5px solid #244fda;
+  margin: 0 1rem;
+  text-align: center;
+  position: relative;
+  right:    -755px;
+  bottom:   -600px;
+  font-size: 25px;
+  
 
+}
+
+.btn:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 20rem;
+}
