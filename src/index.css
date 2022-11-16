@@ -8,9 +8,9 @@
   border: 5px solid #244fda;
   margin: 0 1rem;
   text-align: center;
-  position: relative;
-  right:    -600px;
-  bottom:   -600px;
+  position:absolute;
+  bottom: 15%;
+  left: 35%;
   font-size: 25px;
 }
 
@@ -24,9 +24,9 @@
   border: 5px solid #f20909;
   margin: 0 1rem;
   text-align: center;
-  position: relative;
-  right:    -700px;
-  bottom:   -600px;
+  position:absolute;
+  bottom: 15%;
+  right: 35%;
   font-size: 25px;
 }
 
