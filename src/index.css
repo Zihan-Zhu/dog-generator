@@ -9,14 +9,32 @@
   margin: 0 1rem;
   text-align: center;
   position: relative;
-  right:    -755px;
+  right:    -600px;
   bottom:   -600px;
   font-size: 25px;
-  
+}
 
+.btn1 {
+  font: inherit;
+  padding: 30px 45px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #f20909;
+  color: white;
+  border: 5px solid #f20909;
+  margin: 0 1rem;
+  text-align: center;
+  position: relative;
+  right:    -700px;
+  bottom:   -600px;
+  font-size: 25px;
 }
 
 .btn:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+.btn1:hover{
   cursor:pointer;
   transform: scale(1.1);
 }
@@ -28,3 +46,5 @@
   padding: 1rem;
   width: 20rem;
 }
+
+

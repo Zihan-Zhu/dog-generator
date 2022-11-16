@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Media from "./Media";
 
 function Button() {
   const [picIsOpen, setPicIsOpen] = useState(false);
@@ -7,10 +8,26 @@ function Button() {
     setPicIsOpen(true);
   }
 
+  function refresh(){
+    setPicIsOpen(false);
+  }
+
   return (
-    <button className="btn" onClick={generate}>
-      Fetch it!
-    </button>
+    <div>
+      <div>
+        <button className="btn" onClick={generate}>
+          Fetch it!
+        </button>
+
+        <button className="btn1" onClick={refresh}>
+            Refresh
+        </button>
+      </div>
+
+      {picIsOpen ? <Media /> : null}
+    </div>
+
+    //{picIsOpen ? <Media /> : null}
   );
 }
 export default Button;
